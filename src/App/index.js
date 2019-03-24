@@ -7,13 +7,14 @@ import "./App.css";
 
 //Components Imports
 import Welcome from "./WelcomeMessage";
+import AppLayout from "./AppLayout";
 
 class App extends Component {
   render() {
     return (
-      <div>
+      <AppLayout>
         <Welcome />
-      </div>
+      </AppLayout>
     );
   }
 }
