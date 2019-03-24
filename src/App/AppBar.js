@@ -8,7 +8,7 @@ const Logo = styled.div`
 
 const Bar = styled.div`
   display: grid;
-  grid-template-columns: 180px auto 120px 120px;
+  grid-template-columns: 180px auto 100px 100px;
   margin-bottom: 40px;
 `;
 
@@ -40,7 +40,6 @@ const toProperCase = lower => {
 const AppBar = () => {
   return (
     <Bar>
-      <div>AppBar Component</div>
       <Logo>CryptoDash</Logo>
       <ControlButton active name="dashboard" />
       <ControlButton name="setting" />
